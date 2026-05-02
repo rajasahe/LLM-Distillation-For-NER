@@ -1,0 +1,22 @@
+Extract named entities from the sentence. Return a JSON array only.
+Each item: {"entity": "exact text from sentence", "type": "ENTITY_TYPE"}
+If no entities exist, return [].
+
+Rules:
+- Copy entity text exactly. Do not change it.
+- Strip leading "a", "an", "the" from entity text only.
+- Skip generic nouns, job titles alone, and abstract concepts.
+
+Examples:
+Sentence: """"""
+
+Output: []
+
+---
+
+Sentence: """"""
+
+Output:
+
+
+
